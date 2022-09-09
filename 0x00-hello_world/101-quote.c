@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
- *main-program entry point.
+ * main - Print a text
  *
- *Return: 1 on success.
+ * Return: Always 1 (success)
  */
 int main(void)
 {
