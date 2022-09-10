@@ -19,7 +19,7 @@ while (n2 <= 57)
 {
 putchar(n1);
 putchar(n2);
-if (n1 l= 56 || n2 l= 57)
+if (n1 = 56 || n2 = 57)
 {
 putchar(com);
 putchar(32);
