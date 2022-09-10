@@ -1,27 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - this is to prints double figures
- *
- * Return: will be 0 as (success)
+ * main - program that prints the numbers from 01 to 89
+ * Numbers must be separated by , followed by a space
+ * Numbers should be printed in ascending order with 2 digits
+ * you can only use the putchar function
+ * Return: 0
  */
-
 int main(void)
 {
-int a;
-int b;
-for (a = 0; a <= 9; a++)
+int n1 = 48;
+int n2;
+int com = 44;
+while (n1 <= 57)
 {
-for (b = 1; b <= 9; b++)
+n2 = n1 + 1;
+while (n2 <= 57)
 {
-if (b > a)
+putchar(n1);
+putchar(n2);
+if (n1 l= 56 || n2 l= 57)
 {
-putchar(a + '0');
-putchar(b + '0');
-if (a != 8)
-{
-putchar(',');
-putchar(' ');
-}}}}
+putchar(com);
+putchar(32);
+}
+n2 += 1;
+}
+n1 += 1;
+}
+putchar('\n');
 return (0);
 }
