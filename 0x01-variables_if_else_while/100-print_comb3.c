@@ -2,7 +2,6 @@
 
 /**
  * main - this is to print double figures
- *
  * Return: will be 0 as (success)
  */
 
