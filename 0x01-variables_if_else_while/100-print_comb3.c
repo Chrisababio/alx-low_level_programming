@@ -9,24 +9,25 @@
  */
 int main(void)
 {
-int n1 = 48;
-int n2;
-int com = 44;
-while (n1 <= 57)
+int i;
+int j;
+for (i = 48; i < 58; i++)
 {
-n2 = n1 + 1;
-while (n2 <= 57)
+for (j = 48; j < 58; j++)
 {
-putchar(n1);
-putchar(n2);
-if (n1 = 56 || n2 = 57)
+if (i != j && i < j)
 {
-putchar(com);
-putchar(32);
+putchar(i);
+putchar(j);
+if (j == 57 && i == 56)
+{
+break
+;
 }
-n2 += 1;
+putchar(',');
+putchar(' ');
 }
-n1 += 1;
+}
 }
 putchar('\n');
 return (0);
