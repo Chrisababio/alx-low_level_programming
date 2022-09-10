@@ -16,6 +16,6 @@ continue;
 putchar(',');
 putchar(' ');
 }
-putcha('\n');
+putchar('\n');
 return (0);
 }
