@@ -21,5 +21,7 @@ if (a != 8)
 {
 putchar(',');
 putchar(' ');
-
+}}}}
+return (0);
+}
 				
