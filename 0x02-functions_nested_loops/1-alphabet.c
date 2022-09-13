@@ -3,15 +3,15 @@
 /**
  * print_alphabet - print alphabets in lowercase, followed by new line
  *
- * Return: void
+ * return: void
  */
 void print_alphabet(void)
 {
-char letter = 'a';
-while (letter <= 'z')
-{
-_putchar(letter);
-letter++;
-}
-_putchar('\n');
+	char letter = 'a';
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
