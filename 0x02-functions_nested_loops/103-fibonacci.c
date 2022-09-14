@@ -14,7 +14,7 @@ int main(void)
 
 	while (c < 4000000)
 	{
-		if (c % 2==0)
+		if (c % 2 == 0)
 		{
 			counter += c;
 		}
