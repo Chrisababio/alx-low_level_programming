@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
@@ -13,3 +16,5 @@ void print_times_table(int n);
 int _natural(int n);
 int _fibonacci(int n);
 int add(int, int);
+
+#endif
